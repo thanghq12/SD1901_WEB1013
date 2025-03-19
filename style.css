@@ -1,0 +1,17 @@
+h1 {font-size: 10px;} /* những cái nằm trong ngoặc nhọn được gọi là thuộc tính CSS */
+h6 {font-size: 60px;color: red;}
+h2 {color: green;}
+h3 {color: blue;}
+/* chọn theo id : id được dùng cho mỗi thẻ duy nhất  */ 
+#fpoly {
+    color: aqua;
+    font-size: 100px;
+}
+#fschool {
+    color: red;
+}
+/* bộ chọn classs được sử dụng cho nhóm các thẻ nếu muốn có các thuộc tính giống nhau */
+.cungmau {
+    font-size: 50px;
+    color: gold;
+}
