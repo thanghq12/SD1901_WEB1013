@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân vùng</title>
+    <style>
+        h1.red-class {
+            color: red;
+        }
+        /* .blue-class h1 { /* tất cả các đời có thẻ h1 đều nhận css  */
+         /*   color: blue;*/
+    /*    } */
+        .blue-class>h1 { /* chỉ đời con nhận CSS  */
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="red-class">FPT PolySchool</h1>
+    <p class="red-class">Hihihih</p>
+    <div class="blue-class">
+        <h1> FPT PolySchool</h1>
+        <div>
+            <h1>FPT PolySchool</h1>
+            <div>
+                <h1>FPT PolySchool</h1>
+            </div>
+        </div>
+        <h1>FPTTORORORO</h1>
+    </div>
+</body>
+</html>
