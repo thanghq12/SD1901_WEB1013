@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* position: absolute; */
+            position: absolute;
+            left: 500px;
+            top: 50px;
+            /*
+            Absolute là khi vị trí di chuyển thì (hồn và xác đều di chuyển theo)
+            Relative Chỉ di chuyển hồn và giữ nguyên xác 
+            Mẹo sử dụng thường dùng Absolute thì Div cha bên ngoài phải Relative
+            */
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+        .container {
+            position: relative;
+            width: 300px;
+            height: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+    </div>
+</body>
+</html>
